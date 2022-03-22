@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+:root 
+{
+    --banner: #ff0000;
+    --dark: rgb(100, 0, 0);
+    --darkBG: rgba(58, 0, 0, 0.2);
+    --strapline: #444444;
+    --frostedBG: rgba(0, 0, 0, 0.5);
+    --frostedGlass: rgba(255, 255, 255, 0.05);
+    --containerBG: rgba(255, 255, 255, 0.2);
+    --boxShadow: rgba(72, 93, 129, 0.1);
+    --danWhite: #fefefe;
+    --subRed: rgb(180, 20, 0);
+    --frostedRed: rgba(255, 0, 0, 0.2);
+    --text: black;
+}
+
+/* * 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+@font-face 
+{
+    font-family: Soviet;
+    src: url('../src/fonts/Soviet2.ttf');
+    font-family: Eurostile;
+    src: url('../src/fonts/Eurosti.TTF');
+    font-family: Teen;
+    src: url('../src/fonts/TEEN___.TTF');
+}
+
+body
+{
+    background-image: url('../src/images/DanSubBG.jpg');
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    color: var(--danWhite);
+    font-family: -apple-system;
+    font-family: '-apple-system','HelveticaNeue';
+    font-family: Teen;
+
+    
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+code 
+{
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ 
